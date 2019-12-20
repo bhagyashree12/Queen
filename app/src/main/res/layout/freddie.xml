@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@drawable/custom_ending_color">
+
+    <TextView
+        android:layout_width="412dp"
+        android:layout_height="324dp"
+        android:layout_alignParentTop="true"
+        android:fontFamily="serif"
+        android:textSize="25dp"
+        android:layout_marginTop="282dp"
+        android:text="@string/fredd"
+        android:transitionName="transition" />
+
+    <TextView
+        android:layout_width="398dp"
+        android:layout_height="308dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="355dp"
+        android:fontFamily="serif"
+        android:text="@string/fred_body"
+
+        android:textSize="20dp"
+        android:transitionName="transition" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="4dp"
+
+        android:src="@drawable/freddie" />
+
+
+</RelativeLayout>
+</ScrollView>

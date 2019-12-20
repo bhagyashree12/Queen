@@ -1,0 +1,43 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/custom_ending_color">
+
+        <TextView
+            android:layout_width="390dp"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="282dp"
+            android:fontFamily="serif"
+            android:text="@string/roger"
+            android:textSize="25dp"
+            android:transitionName="transition" />
+
+        <TextView
+            android:layout_width="398dp"
+            android:layout_height="308dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="332dp"
+
+            android:fontFamily="serif"
+            android:text="@string/roger_body"
+            android:textSize="20dp"
+            android:transitionName="transition" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/roger" />
+
+
+</RelativeLayout>
+</ScrollView>

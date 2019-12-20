@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"></item>
+        <item
+            android:id="@+id/Queen_Music"
+            android:title="Queen Music"></item>
+
+    </group>
+    <group
+        android:id="@+id/grp2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/website"
+            android:title="Queen Official Website"></item>
+
+    </group>
+
+</menu><!--  id is provided to grp cause then only this two grp will be separated-->

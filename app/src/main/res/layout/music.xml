@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_background_layout">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:background="@drawable/custom_background_layout">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Fat_bottom_girl"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/navigation_item_color"
+                android:layout_marginRight="20dp"
+
+                />
+
+            <ImageButton
+                android:id="@+id/playbtn1"
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/play"
+                android:background="@drawable/custom_music_background"
+
+                />
+
+            <ImageButton
+                android:id="@+id/pausebtn1"
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/pause"
+                android:onClick="pause"
+                android:background="@drawable/custom_music_background"
+
+               />
+
+            <ImageButton
+                android:id="@+id/stop1"
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/stop"
+                android:onClick="stop"
+                android:background="@drawable/custom_music_background"
+               />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:background="@drawable/custom_background_layout">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="I_want_to break_free"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/navigation_item_color"
+                android:layout_marginRight="20dp"/>
+
+            <ImageButton
+                android:id="@+id/playbtn2"
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/play"
+                android:background="@drawable/custom_music_background"/>
+
+            <ImageButton
+                android:id="@+id/pausebtn2"
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/pause"
+                android:onClick="pause"
+                android:background="@drawable/custom_music_background"/>
+
+            <ImageButton
+                android:id="@+id/stop2"
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/stop"
+                android:onClick="stop"
+                android:background="@drawable/custom_music_background"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:background="@drawable/custom_background_layout">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Keep_yourself_alive"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/navigation_item_color"
+                android:layout_marginRight="20dp"/>
+
+            <ImageButton
+                android:id="@+id/playbtn3"
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/play"
+                android:background="@drawable/custom_music_background"/>
+
+            <ImageButton
+                android:id="@+id/pausebtn3"
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/pause"
+                android:onClick="pause"
+                android:background="@drawable/custom_music_background"/>
+
+            <ImageButton
+                android:id="@+id/stop3"
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/stop"
+                android:onClick="stop"
+                android:background="@drawable/custom_music_background"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:background="@drawable/custom_background_layout">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Killer_queen"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/navigation_item_color"
+                android:layout_marginRight="20dp"/>
+
+            <ImageButton
+                android:id="@+id/playbtn4"
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/play"
+                android:background="@drawable/custom_music_background"/>
+
+            <ImageButton
+                android:id="@+id/pausebtn4"
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/pause"
+                android:onClick="pause"
+                android:background="@drawable/custom_music_background"/>
+
+            <ImageButton
+                android:id="@+id/stop4"
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/stop"
+                android:onClick="stop"
+                android:background="@drawable/custom_music_background"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal"
+            android:background="@drawable/custom_background_layout">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="We_will_rock_you"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/navigation_item_color"
+                android:layout_marginRight="20dp"/>
+
+            <ImageButton
+                android:id="@+id/playbtn5"
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/play"
+                android:background="@drawable/custom_music_background"/>
+
+            <ImageButton
+                android:id="@+id/pausebtn5"
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/pause"
+                android:onClick="pause"
+                android:background="@drawable/custom_music_background"/>
+
+            <ImageButton
+                android:id="@+id/stop5"
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/stop"
+                android:onClick="stop"
+                android:background="@drawable/custom_music_background"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
